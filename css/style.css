@@ -54,6 +54,15 @@ header a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header .icon {
+    background-image: url("../images/global/icon/icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+
 .first {
     display: flex;
     height: var(--first-section-height);
