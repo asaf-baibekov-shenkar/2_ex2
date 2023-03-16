@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+:root {
+    --header-background-color: #white;
+    --footer-background-color: #E5E5E5;
+    --first-section-background-color:#F9BDBD;
+    --button-background-color:white;
+    --header-height: 60px;
+    --header-vertical-padding: 20px;
+    --header-horizontal-padding: 20px;
+    --first-section-height: 555px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav, header, section, footer {
+    display: block;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header {
+    background-color: var(--header-background-color);
+    padding: var(--header-vertical-padding) var(--header-horizontal-padding);
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first {
+    display: flex;
+    height: var(--first-section-height);
+    background-color: var(--first-section-background-color);
+    gap: 80px;
+    flex-basis: auto;
+}
+
+.first > div {
+    display: flex;
+}
+
+.first .left {
+    display: flex;
+    align-items: center;
+}
+
+.first .left > img {
+    height: 75%;
+}
+
+.first > .left > img {
+    margin-left: 40px;
+}
+
+.first .right {
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+
+.first .right div {
+    height: 75%;
+}
+
+.first .right h1,
+.first .right h2 {
+    font-weight: normal;
+}
+
+.second {
+    padding: 20px 40px;
+}
+
+.second p {
+    font-size: 20px;
+    width: 69%;
+}
+
+.third {
+    margin: 40px;
+}
+
+.third .container > .card {
+    display: inline-block;
+    width: 175px;
+    padding: 30px;
+    height: 250px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 0px #E5E9F6;
+}
+
+.third .container > .card {
+    margin: 20px
+}
+
+.third .container > .card > .content > .bottom > .button > span {
+    font-weight: bold;
+}
+
+.third .container > .card:nth-child(1) {
+    background-color: #FDEDE5;
+}
+
+.third .container > .card:nth-child(2) {
+    background-color: #EBF1FF;
+}
+
+.third .container > .card:nth-child(3) {
+    background-color: #EBFFEC;
+}
+
+.third .container > .card:nth-child(4) {
+    background-color: #FFEBFC;
+}
+
+.third .container > .card:nth-child(5) {
+    background-color: #FFFEEB;
+}
+
+
+.third .container > .card:nth-child(1):hover > .content > .bottom > .button {
+    background-color: black
+}
+
+.third .container > .card:nth-child(2):hover > .content > .bottom > .button {
+    background-color: black
+}
+
+.third .container > .card:nth-child(3):hover > .content > .bottom > .button {
+    background-color: black
+}
+
+.third .container > .card:nth-child(4):hover > .content > .bottom > .button {
+    background-color: black
+}
+
+.third .container > .card:nth-child(5):hover > .content > .bottom > .button {
+    background-color: black
+}
+
+
+.third .container > .card:nth-child(1):hover > .content > .bottom > .button > span {
+    color: #FDEDE5;
+}
+
+.third .container > .card:nth-child(2):hover > .content > .bottom > .button > span {
+    color: #EBF1FF;
+}
+
+.third .container > .card:nth-child(3):hover > .content > .bottom > .button > span {
+    color: #EBFFEC;
+}
+
+.third .container > .card:nth-child(4):hover > .content > .bottom > .button > span {
+    color: #FFEBFC;
+}
+
+.third .container > .card:nth-child(5):hover > .content > .bottom > .button > span {
+    color: #FFFEEB;
+}
+
+
+.third .container > .card > .content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.third .container > .card > .content > .top {
+    height: 50%;
+}
+
+.third .container > .card > .content > .bottom {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.third .container > .card > .content > .bottom > .button {
+    border-radius: 40px;
+    width: 75%;
+    display: flex;
+    background-color: var(--button-background-color);
+    height: 50px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.third .container > .card > .content > .top > img {
+    border-radius: 40px;
+}
+
+.third .container > .card > .content > .top > h3 {
+    color: black;
+}
+
+.forth {
+    margin: 40px;
+}
+
+.forth .spaced-list {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+.forth .spaced-list li {
+    margin-bottom: 4px;
+}
+
+.fifth {
+    margin: 40px;
+}
+
+.fifth > div {
+    background-color: #F9BDBD;
+    height: 500px;
+    margin-bottom: 250px;
+}
+
+footer {
+    padding: 40px;
+    background-color: var(--footer-background-color);
+}
+
+footer h3 {
+    font-weight: normal;
+}
+
+footer .links {
+    margin-bottom: 100px;
+}
+
+footer .links a {
+    display: inline-block;
+}
+
+footer a,
+footer p {
+    color: #8D8D8D;
+}
+
+@media only screen and (max-width: 880px) {
+    .first h1 {
+        font-size: 2rem;
+    }
+    
+    .first h2 {
+        font-size: 1.5rem;
+    }
+
+    .first {
+        gap: 10px;
+    }
+
+    .first .left img {
+        height: 65%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .first .left img {
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .first .left img {
+        height: 40%;
+    }
+}
